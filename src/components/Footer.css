@@ -1,0 +1,14 @@
+.footer {
+    border-top: 3px solid black;
+    display: flex;
+    height: 20vh;
+    flex-direction: row;
+    align-items: center ;
+    padding: 25px 25px;
+}   
+.footer ul {
+    margin: 10px 10px;
+}
+.footer p {
+    margin: 10px 10px;
+}
