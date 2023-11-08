@@ -3,7 +3,7 @@ import './Menu.css';
 import { Link } from 'react-router-dom';
 
 const Menu = () => {
-    return ( 
+    return (
       <div className='header'>
         <div className='menu-left'>
             <img src={logo} alt='logo' className='logo'></img>

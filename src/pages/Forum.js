@@ -5,6 +5,7 @@ function Forum() {
     return ( 
         <div className="Forum">
             <Menu />
+            <h1>Forum test...</h1>
             {/* <ForumFunc /> */}
             <Footer />
         </div>

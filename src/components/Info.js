@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import imgOne from '../img/sliderimageone.png';
 import './Info.css';
 
 const Info = () => {
+    const [currentIndex, setCurrentIndex] = useState();
     return ( 
         <div className="info">
             <h1>Kup najnowsze kursy!</h1>

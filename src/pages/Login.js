@@ -1,5 +1,6 @@
 import Menu from '../components/Menu';
 import Footer from '../components/Footer.js';
+import LoginFunc from '../components/LoginFunc';
 
 function Login() {
     return (
@@ -7,7 +8,7 @@ function Login() {
             <Menu />
             <div className="login">
                 <h1>Login test...</h1>
-                {/* <LoginFunc /> */}
+                <LoginFunc />
             </div>
             <Footer />
         </div>
